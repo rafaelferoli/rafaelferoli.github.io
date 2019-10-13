@@ -17,6 +17,11 @@ body {
 p {
     font-size: 80px;
     line-height: 88px;
+    letter-spacing: -0.7px;
+}
+
+.container .main p br {
+    display: none;
 }
 
 a:link, a:visited, a:active {
@@ -27,4 +32,21 @@ a:link, a:visited, a:active {
 a:hover {
     color: black;
     opacity: 0.4;
+}
+
+@media (max-width: 500px) {
+
+    .container {
+        padding: 40px;
+    }
+
+    .container .main p br {
+        display: inline;
+    }
+
+    p {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
 }
