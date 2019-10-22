@@ -60,4 +60,13 @@ p {
     margin-bottom: 40px;
 }
 
+a:link, a:active, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    opacity: 0.4;   
+}
+
 }
