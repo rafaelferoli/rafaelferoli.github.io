@@ -37,6 +37,15 @@ a:hover {
 
 @media (max-width: 500px) {
 
+body {
+    background: white;
+    color: black;
+}
+
+.container {
+    background: white;
+}
+
 p {
     font-size: 24px;
     line-height: 32px;
