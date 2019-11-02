@@ -1,0 +1,70 @@
+@import "reset.css";
+
+body {
+    background: black;
+    color: white;
+    font-family: "neue-haas-grotesk-text", "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.info {
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    cursor: default;;
+}
+
+ul {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    width: 650px;
+    height: 100%;    
+    box-sizing: border-box;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+p {
+    margin-bottom: 24px;
+}
+
+a:link, a:active, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    opacity: 0.2;
+}
+
+
+
+
+
+@media (max-width: 500px) {
+
+}
