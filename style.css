@@ -21,7 +21,7 @@ body {
     width: 50%;
     height: 100vh;
     box-sizing: border-box;
-    padding: 24px;
+    padding: 48px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -34,36 +34,33 @@ h1 {
 }
 
 .info ul {
-    width: 100px;
+    width: 180px;
     display: flex;
     flex-direction: column;
 }
 
 .about {
-    width: 650px;
+    width: 720px;
     height: 100%;    
     box-sizing: border-box;
-    padding: 24px;
+    padding: 48px 56px 48px 48px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 192px;
 }
 
 .about ul {
     display: none;
 }
 
-p {
-    margin-bottom: 24px;
-}
 
 a:link, a:active, a:visited {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 
 a:hover {
-    opacity: 0.2;
+    opacity: 0.4;
 }
 
 @media (max-width: 500px) {
@@ -79,8 +76,9 @@ a:hover {
 
     .info {
         height: 100%;
-        width: 100%;
-        padding: 24px 24px 0;
+        width: 308px;
+        padding: 28px 28px 0;
+        position: unset;
     }
 
     .info ul {
@@ -88,12 +86,14 @@ a:hover {
     }
 
     .about {
-        width: 100%;
+        width: 308px;
         height: 100%;
+        padding: 28px;
     }
 
     .about ul {
         width: 100px;
+        margin-top: 28px;
         display: flex;
         flex-direction: column;
     }
