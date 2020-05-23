@@ -44,7 +44,7 @@ h1 {
 }
 
 .about {
-    width: 720px;
+    width: 740px;
     height: 100%;    
     box-sizing: border-box;
     padding: 48px 56px 48px 48px;
@@ -53,7 +53,7 @@ h1 {
     margin-bottom: 192px;
 }
 
-.about ul {
+.about .links {
     display: none;
 }
 
@@ -85,7 +85,7 @@ a:hover {
         position: unset;
     }
 
-    .info ul {
+    .info .links {
         display: none;
     }
 
@@ -95,8 +95,8 @@ a:hover {
         padding: 28px;
     }
 
-    .about ul {
-        width: 100px;
+    .about .links {
+        width: 160px;
         margin-top: 28px;
         display: flex;
         flex-direction: column;
